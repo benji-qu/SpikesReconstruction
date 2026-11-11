@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data & evaluation outputs
+data/input/*
+!data/input/.gitkeep
+data/output/*
+!data/output/.gitkeep
+evaluation_results/
+*.log
+.DS_Store
